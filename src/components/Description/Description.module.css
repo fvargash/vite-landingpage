@@ -1,0 +1,43 @@
+.Description{
+    .Banner {
+        background: linear-gradient( to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("./../../img/delivery.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 630px;
+    }
+}
+.Description .Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+    gap: 0.17rem;
+}
+.Description .Container h1{
+    font-size:clamp(2rem, 3.5vw, 3rem);
+    margin: 0.1rem;
+    width: 100vw;
+}
+.Description .Container .Section{
+    margin-top: 3rem;
+}
+.Description .Container .Section h2,p{
+    font-size:clamp(2rem, 4.5vw, 3rem);
+    margin: 0.1rem;
+    padding: 1.6rem;
+    text-align: center;
+    width: 55vw;
+}
+p{
+    text-align: start;
+}
+
+.Description .Container img{
+    width: 42vw;
+    height:auto;
+    padding: 1rem;
+    border-radius: 9%;
+    margin-top: 4rem;
+}

@@ -1,0 +1,18 @@
+.Coupon{
+    height: 43rem;
+}
+.Coupon .Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;     
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.Coupon .Container h1{
+    font-size: clamp(2rem, 3vw, 5rem);
+}
+.Coupon .Container img{
+    max-width: 100%;
+    height: auto;
+}
